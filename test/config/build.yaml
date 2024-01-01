@@ -19,4 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: purrcy
+    shield: purrcy_left
+  - board: seeeduino_xiao_ble
+    shield: purrcy_right

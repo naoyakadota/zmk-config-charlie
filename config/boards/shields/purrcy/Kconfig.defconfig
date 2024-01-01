@@ -1,13 +1,6 @@
-# Copyright (c) 2024 naoyakadota
-# SPDX-License-Identifier: MIT
-
-if SHIELD_PURRCY_LEFT
+if SHIELD_PURRCY
 
 config ZMK_KEYBOARD_NAME
-    default "Purrcy Left"
+    default "Purrcy"
 
-endif
-
-if SHIELD_PURRCY_RIGHT
-    default "Purrcy Right"
 endif
