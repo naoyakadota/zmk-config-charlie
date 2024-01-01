@@ -1,8 +1,0 @@
-file_format: "1"
-id: purrcy
-name: purrcy
-type: shield
-url: https://github.com/naoyakadota
-requires: [seeeduino_xiao_ble]
-features:
-  - keys
