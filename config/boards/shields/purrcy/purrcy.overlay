@@ -1,6 +1,6 @@
 // a conditional .overlay file to test out prototoype board
 
-#include <dt-bindings/zmk/matrix-transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
