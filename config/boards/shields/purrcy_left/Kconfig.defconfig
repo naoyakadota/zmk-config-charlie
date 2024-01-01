@@ -1,0 +1,6 @@
+if SHIELD_PURRCY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "purrcy_left"
+
+endif

@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_helix_left
+    shield: purrcy_left
   - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_helix_right
+    shield: purrcy_right

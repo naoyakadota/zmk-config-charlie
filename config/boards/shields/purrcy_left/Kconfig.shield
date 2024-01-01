@@ -1,0 +1,5 @@
+config SHIELD_PURRCY_LEFT
+    def_bool $(shields_list_contains, purrcy_left)
+
+config SHIELD_PURRCY_LEFT
+    def_bool $(shields_list_contains, purrcy_right)
