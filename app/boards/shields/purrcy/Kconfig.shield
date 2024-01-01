@@ -1,5 +1,2 @@
-# Copyright (c) 2024 naoyakadota
-# SPDX-License-Identifier: MIT
-
 config SHIELD_PURRCY
     def_bool $(shields_list_contains, purrcy)
