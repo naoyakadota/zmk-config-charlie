@@ -1,2 +1,0 @@
-config SHIELD_PURRCY
-    def_bool $(shields_list_contains, purrcy)
