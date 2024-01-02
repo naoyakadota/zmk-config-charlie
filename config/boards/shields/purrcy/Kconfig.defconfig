@@ -1,6 +1,0 @@
-if SHIELD_PURRCY
-
-config ZMK_KEYBOARD_NAME
-    default "Purrcy"
-
-endif

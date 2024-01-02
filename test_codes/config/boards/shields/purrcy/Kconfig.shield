@@ -1,8 +1,0 @@
-# Copyright (c) 2024 naoyakadota
-# SPDX-License-Identifier: MIT
-
-config SHIELD_PURRCY_LEFT
-    def_bool $(shields_list_contains, purrcy_left)
-
-config SHIELD_PURRCY_RIGHT
-    def_bool $(shields_list_contains, purrcy_right)
