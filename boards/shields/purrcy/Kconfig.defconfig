@@ -4,3 +4,5 @@ config ZMK_KEYBOARD_NAME
     default "Purrcy"
 
 endif
+
+CONFIG_ZMK_USB_LOGGING=y
