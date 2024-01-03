@@ -3,4 +3,8 @@ if SHIELD_PURRCY
 config ZMK_KEYBOARD_NAME
     default "Purrcy"
 
+config ZMK_KSCAN_CHARLIEPLEX_WAIT_BEFORE_INPUTS
+    default 10
+config ZMK_KSCAN_CHARLIEPLEX_WAIT_BETWEEN_OUTPUTS
+    default 10
 endif
