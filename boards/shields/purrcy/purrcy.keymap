@@ -19,7 +19,7 @@
         bt_layer {
             bindings = <
                 &kp GRAVE    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5
-                &kp TAB      &bt BT_NXT   &bt BT_PRV   &bt BT_CLR   &kp R        &kp T
+                &kp TAB      &bt BT_CLR   &bt BT_PRV   &bt BT_NXT   &kp R        &kp T
                 &kp CLCK     &out OUT_BLE &kp S        &kp D        &kp F        &kp G
                 &kp LSHFT    &kp Z        &kp X        &kp C        &kp V        &kp B
                 &mo 1        &kp LCTRL    &kp LALT     &kp SPACE
