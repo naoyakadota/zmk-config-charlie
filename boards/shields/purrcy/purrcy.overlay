@@ -11,15 +11,14 @@
 
     kscan1: kscan_charlie {
         compatible = "zmk,kscan-gpio-charlieplex";
-        gpios
-            = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>              <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        gpios=<&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>              <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-    };
+        };
 
     default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
